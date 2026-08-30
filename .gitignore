@@ -1,0 +1,214 @@
+# ============================================================
+
+# ECE 480 FPGA / Vivado .gitignore
+
+# ============================================================
+
+# ------------------------------------------------------------
+
+# Vivado generated project directories
+
+# ------------------------------------------------------------
+
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+
+# ------------------------------------------------------------
+
+# Vivado project files
+
+# ------------------------------------------------------------
+
+*.xpr
+
+# Vivado generated logs / journals
+
+*.jou
+*.log
+*.str
+*.backup
+
+# Vivado generated implementation / synthesis files
+
+*.dcp
+*.pb
+*.rpt
+*.rpx
+*.wdf
+*.wdb
+*.vdi
+*.vds
+*.xml
+
+# Generated FPGA programming files
+
+*.bit
+*.bin
+*.ltx
+*.pdi
+
+# ------------------------------------------------------------
+
+# Simulation generated files
+
+# ------------------------------------------------------------
+
+*.vcd
+*.wlf
+*.vpd
+*.fst
+
+# XSim generated files
+
+xsim.dir/
+*.wdb
+
+# ModelSim / Questa
+
+transcript
+vsim.wlf
+modelsim.ini
+
+# Icarus Verilog
+
+*.vvp
+
+# Verilator
+
+obj_dir/
+verilated/
+
+# ------------------------------------------------------------
+
+# FPGA / synthesis build directories
+
+# ------------------------------------------------------------
+
+build/
+builds/
+output/
+outputs/
+generated/
+
+# ------------------------------------------------------------
+
+# Operating system files
+
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------
+
+# Editor / IDE files
+
+# ------------------------------------------------------------
+
+.vscode/
+.idea/
+
+# Vim
+
+*.swp
+*.swo
+*.swn
+
+# Emacs
+
+*~
+
+# ------------------------------------------------------------
+
+# Temporary / backup files
+
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.old
+
+# ------------------------------------------------------------
+
+# Python generated files
+
+# ------------------------------------------------------------
+
+**pycache**/
+*.pyc
+*.pyo
+
+# ------------------------------------------------------------
+
+# Miscellaneous generated files
+
+# ------------------------------------------------------------
+
+*.pid
+*.lock
+*.tmp
+
+# ------------------------------------------------------------
+
+# NOTE:
+
+#
+
+# Actual project files are intentionally NOT ignored.
+
+# The following will be tracked normally:
+
+#
+
+# SystemVerilog / Verilog:
+
+# *.sv
+
+# *.v
+
+# *.vh
+
+#
+
+# Constraints:
+
+# *.xdc
+
+#
+
+# Scripts:
+
+# *.tcl
+
+# *.sh
+
+#
+
+# Documentation:
+
+# *.md
+
+# *.txt
+
+# *.pdf
+
+#
+
+# Data:
+
+# *.csv
+
+#
+
+# ------------------------------------------------------------
+
